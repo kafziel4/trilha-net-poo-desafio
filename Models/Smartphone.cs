@@ -2,8 +2,11 @@ namespace DesafioPOO.Models
 {
     public abstract class Smartphone
     {
+        private readonly string _modelo;
+        private readonly string _imei;
+        private readonly int _memoria;
+
         public string Numero { get; set; }
-        // TODO: Implementar as propriedades faltantes de acordo com o diagrama
 
         public Smartphone(string numero)
         {
